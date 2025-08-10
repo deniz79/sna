@@ -1,0 +1,56 @@
+{
+  "network_name": "DenizYetik-HybridBot",
+  "author": "Deniz Yetik",
+  "version": "1.0",
+  "description": "Hybrid chess bot with deep learning system, position analysis, and adaptive engine selection",
+  "created_date": "2025-08-10T21:06:01.296500",
+  "statistics": {
+    "total_games": 5,
+    "wins": 1,
+    "draws": 4,
+    "losses": 0,
+    "win_rate": 20.0,
+    "draw_rate": 80.0,
+    "loss_rate": 0.0
+  },
+  "features": {
+    "engines": [
+      "Stockfish 17.1",
+      "LCZero (planned)"
+    ],
+    "opening_book": "Anti-Stockfish Polyglot Book",
+    "endgame_tablebase": "Syzygy 5-6 piece",
+    "position_analysis": "Advanced classification system",
+    "learning_system": "SQLite-based mistake database",
+    "time_management": "Dynamic allocation based on position",
+    "50_move_rule": "Implemented correctly",
+    "visual_display": "Unicode chess board"
+  },
+  "recent_games": [
+    {
+      "result": "1/2-1/2",
+      "total_time": 1139.172621011734,
+      "avg_move_time": 3.1556028282873516,
+      "timestamp": "2025-08-10T21:05:52.952182",
+      "database": "detailed_single_match.db"
+    },
+    {
+      "result": "1/2-1/2",
+      "total_time": 425.0860540866852,
+      "avg_move_time": 3.1722839857215313,
+      "timestamp": "2025-08-10T20:46:41.195501",
+      "database": "detailed_single_match.db"
+    }
+  ],
+  "rating_estimate": 2600,
+  "repository_info": {
+    "github": "https://github.com/denizyetik/chess-bot",
+    "license": "MIT",
+    "language": "Python 3",
+    "dependencies": [
+      "python-chess",
+      "stockfish",
+      "sqlite3"
+    ]
+  }
+}
