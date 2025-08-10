@@ -1,4 +1,4 @@
-# DenizYetik-HybridBot ♟️🤖
+# DenizYetik-HybridBot
 
 Advanced hybrid chess bot with deep learning system, position analysis, and adaptive engine selection.
 
@@ -24,8 +24,8 @@ Advanced hybrid chess bot with deep learning system, position analysis, and adap
 
 ```bash
 # Clone repository
-git clone https://github.com/deniz79/sna.git
-cd sna
+git clone https://github.com/denizyetik/chess-bot.git
+cd chess-bot
 
 # Install dependencies
 pip install -r requirements.txt
@@ -63,7 +63,7 @@ python3 continuous_tournament_system.py
 ## 📁 Project Structure
 
 ```
-sna/
+chess-bot/
 ├── main.py                          # Main entry point
 ├── detailed_single_match.py         # Detailed match system
 ├── continuous_tournament_system.py  # Tournament system
@@ -123,7 +123,7 @@ MIT License - see LICENSE file for details
 ## 👤 Author
 
 **Deniz Yetik**
-- GitHub: [@deniz79](https://github.com/deniz79)
+- GitHub: [@denizyetik](https://github.com/denizyetik)
 - Bot Rating: 2600
 - Specialization: Hybrid chess AI systems
 
@@ -138,20 +138,8 @@ MIT License - see LICENSE file for details
 
 For questions and support:
 - Create an issue on GitHub
-- Contact: deniz79@github.com
+- Contact: denizyetik@example.com
 
 ---
 
 **DenizYetik-HybridBot** - Pushing the boundaries of chess AI! ♟️🤖
-
-## 🌐 Neural Network Repository Links
-
-- **GitHub Repository**: https://github.com/deniz79/sna
-- **Lichess Analysis**: https://lichess.org/analysis
-- **Chess.com Analysis**: https://www.chess.com/analysis
-
-### Bot Search Terms:
-- **Network Name**: `DenizYetik-HybridBot`
-- **Author**: `Deniz Yetik`
-- **Rating**: `2600`
-- **Engine**: `Stockfish 17.1`
